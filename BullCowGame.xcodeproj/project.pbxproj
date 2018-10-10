@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		47B90E1521488D4E0035A825 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47B90E1421488D4E0035A825 /* main.cpp */; };
+		47B90E1F216438170035A825 /* FBullCowGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47B90E1D216438170035A825 /* FBullCowGame.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		47B90E1121488D4E0035A825 /* BullCowGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BullCowGame; sourceTree = BUILT_PRODUCTS_DIR; };
 		47B90E1421488D4E0035A825 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		47B90E1B2164372F0035A825 /* BullCowGame */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BullCowGame; sourceTree = "<group>"; };
+		47B90E1D216438170035A825 /* FBullCowGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FBullCowGame.cpp; sourceTree = "<group>"; };
+		47B90E1E216438170035A825 /* FBullCowGame.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FBullCowGame.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				47B90E1321488D4E0035A825 /* BullCowGame */,
+				47B90E1B2164372F0035A825 /* BullCowGame */,
 				47B90E1221488D4E0035A825 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,6 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				47B90E1421488D4E0035A825 /* main.cpp */,
+				47B90E1D216438170035A825 /* FBullCowGame.cpp */,
+				47B90E1E216438170035A825 /* FBullCowGame.hpp */,
 			);
 			path = BullCowGame;
 			sourceTree = "<group>";
@@ -119,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47B90E1521488D4E0035A825 /* main.cpp in Sources */,
+				47B90E1F216438170035A825 /* FBullCowGame.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

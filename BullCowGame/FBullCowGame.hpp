@@ -1,0 +1,21 @@
+#pragma once
+#include "FBullCowGame.hpp"
+#include <string>
+
+
+class FBullCowGame {
+public:
+    void Reset(); //TODO make a more rich return value.
+    int GetMaxTries();
+    int GetCurrentTry();
+    bool isGameWon();
+    bool CheckGuessValidity(std::string); //TODO make a more rich return value.
+    
+    
+    
+    //Please try and ignore this and focus on the interface above ^^
+private:
+    int MyCurrentTry = 1;
+    int MyMaxTries = 5;
+};
+
