@@ -25,7 +25,7 @@ int main()
 }
 
 // introduce the game
-void PrintIntro(){
+void PrintIntro() {
     
     constexpr int WORD_LENGTH = 5;
     std::cout << "Welcome to Bulls and Cows, a fun word game!\n";
